@@ -1,11 +1,11 @@
 function [xs] = jc_convolve_hanning(x, win)
-% convolve_hanning  Smooth data by convolving a hanning function of length 'win'.
-% 
-%   convolve_hanning(x) uses a default window of 5.
+% jc_convolve_hanning  Smooth data by convolving a hanning function of length 'win'.
+%
+%   jc_convolve_hanning(x) uses a default window of 5.
 %
 %   To specify the window length, use:
 %
-%   convolve_hanning(x, win)
+%   jc_convolve_hanning(x, win)
 %
 
 if ~exist('win', 'var')

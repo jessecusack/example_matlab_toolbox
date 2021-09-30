@@ -1,5 +1,5 @@
 function [Krho] = jc_calculate_diffusivity(eps, N2, gamma)
-% calculate_diffusivity  Estimate the turbulent diffusivity from dissipation and stratification.
+% jc_calculate_diffusivity  Estimate the turbulent diffusivity from dissipation and stratification.
 %
 %   Inputs
 %   ------
@@ -10,13 +10,13 @@ function [Krho] = jc_calculate_diffusivity(eps, N2, gamma)
 %   Outputs
 %   -------
 %       Krho [m2 s-1] : turbulent diffusivity
-% 
+%
 %   Usage
 %   -----
-%   calculate_diffusivity(eps, N2) uses a default flux coefficient of 0.2.
+%   jc_calculate_diffusivity(eps, N2) uses a default flux coefficient of 0.2.
 %
 %   To specify the flux coefficient, use:
-%   calculate_diffusivity(eps, N2, gamma)
+%   jc_calculate_diffusivity(eps, N2, gamma)
 %
 
 if ~exist('gamma', 'var')
