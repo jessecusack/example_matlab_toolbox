@@ -18,6 +18,7 @@ function [Krho] = jc_calculate_diffusivity(eps, N2, gamma)
 %   To specify the flux coefficient, use:
 %   jc_calculate_diffusivity(eps, N2, gamma)
 %
+% Author: Jesse Cusack (jmcusack@marine.rutgers.edu)
 
 if ~exist('gamma', 'var')
     gamma = 0.2;

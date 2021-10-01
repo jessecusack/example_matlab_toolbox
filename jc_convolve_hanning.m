@@ -7,6 +7,7 @@ function [xs] = jc_convolve_hanning(x, win)
 %
 %   jc_convolve_hanning(x, win)
 %
+% Author: Jesse Cusack (jmcusack@marine.rutgers.edu)
 
 if ~exist('win', 'var')
     win = 5;

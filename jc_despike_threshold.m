@@ -7,6 +7,7 @@ function [x_clean] = jc_despike_threshold(x, x_max)
 %
 %   x_clean = jc_despike_threshold(x, x_max)
 %
+% Author: Jesse Cusack (jmcusack@marine.rutgers.edu)
 
 if ~exist('x_max', 'var')
     x_max = 1;
